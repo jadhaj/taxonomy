@@ -1,0 +1,50 @@
+document:
+  repo: https://github.com/jadhaj/taxonomy
+  commit: 9488b9b4db5ca65af8ead9f2ed4eb1fadbf52e44
+  patterns: ["*.md"]
+document_outline: |
+  Information about the machine learning concepts including supervised, unsupervised, and reinforcement learning.
+version: 3
+created_by: jadhaj
+domain: machine-learning
+seed_examples:
+  - context: "Basics of supervised learning"
+    questions_and_answers:
+      - question: "What is supervised learning?"
+        answer: "A type of machine learning where models are trained on labeled data."
+      - question: "What are some examples of supervised learning algorithms?"
+        answer: "Linear regression, logistic regression, support vector machines, and decision trees."
+      - question: "What is the key requirement for supervised learning?"
+        answer: "A dataset with input features and corresponding labels."
+  - context: "Unsupervised learning"
+    questions_and_answers:
+      - question: "What is unsupervised learning?"
+        answer: "A type of machine learning that finds hidden patterns in unlabeled data."
+      - question: "Name two common unsupervised learning techniques."
+        answer: "Clustering and dimensionality reduction."
+      - question: "What is an example of clustering?"
+        answer: "K-means clustering groups data points into clusters based on similarity."
+  - context: "Reinforcement learning"
+    questions_and_answers:
+      - question: "What is reinforcement learning?"
+        answer: "A learning paradigm where an agent learns by interacting with an environment and receiving rewards."
+      - question: "What are the main components of reinforcement learning?"
+        answer: "Agent, environment, actions, states, and rewards."
+      - question: "Give an example of reinforcement learning in real life."
+        answer: "Training a robot to walk by rewarding successful steps."
+  - context: "Neural networks"
+    questions_and_answers:
+      - question: "What is a neural network?"
+        answer: "A computational model inspired by the human brain, consisting of layers of interconnected nodes."
+      - question: "What are activation functions used for?"
+        answer: "They introduce non-linearity into the model, enabling it to learn complex relationships."
+      - question: "What is backpropagation?"
+        answer: "An algorithm for training neural networks by adjusting weights using gradients of the loss function."
+  - context: "Deep learning"
+    questions_and_answers:
+      - question: "What is deep learning?"
+        answer: "A subset of machine learning using neural networks with many layers."
+      - question: "Why is deep learning effective?"
+        answer: "Because it can automatically learn hierarchical feature representations from raw data."
+      - question: "What is a popular deep learning framework?"
+        answer: "TensorFlow and PyTorch are widely used."
